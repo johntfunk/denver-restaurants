@@ -20,7 +20,8 @@ window.TRACKER = {
       price: "$215 pp, prepaid, plus service charge and tax",
       notes: "About 2.5 hours; chef's counter (1 to 4 guests) or dining room.",
       url: "https://www.opentable.com/r/beckon-denver",
-      chefName: "Duncan Holmes"
+      chefName: "Duncan Holmes",
+      food: "Seasonal, farm-driven Modern European tasting menu at a chef's counter, about 2.5 hours. Recent examples include sunflower risotto with grilled oyster mushroom, seared duck with parsnip and black truffle, and a chocolate finale."
     },
     {
       name: "Milpero",
@@ -33,7 +34,8 @@ window.TRACKER = {
         "18 courses, 8 guests per seating, 4 nights a week. Each month's tables open at 8 AM MT on the 1st of the month before.",
       url: "https://www.opentable.com/r/maize-denver",
       chef: "chef-curiel",
-      chefName: "Johnny Curiel"
+      chefName: "Johnny Curiel",
+      food: "Eighteen-course Mexican tasting menu over three hours, built around house-nixtamalized masa and distinctive moles. Examples include a bluefin-tuna flauta with mole rosa, wagyu with mole amarillo and ayocote beans, and champurrado over atole mousse."
     },
     {
       name: "Kizaki",
@@ -45,7 +47,8 @@ window.TRACKER = {
       notes: "About 20 courses; seatings at 5:00 and 8:00 PM, counter or table.",
       url: "https://www.opentable.com/r/kizaki-denver",
       chef: "chef-kizaki",
-      chefName: "Toshi Kizaki"
+      chefName: "Toshi Kizaki",
+      food: "About 20 courses of Edomae omakase, mixing nigiri with kaiseki-style cooked dishes, from raw and cured to seared and dry-aged. Examples include sesame tofu, lightly seared black-throat sea perch, and vinegar-cured gizzard shad."
     },
     {
       name: "The Counter at Odell's",
@@ -57,7 +60,8 @@ window.TRACKER = {
       notes: "10-seat counter on weekends; menu changes nightly; no vegetarian or vegan.",
       url: "https://www.opentable.com/r/the-counter-at-odells-denver",
       chef: "chef-odell",
-      chefName: "Miles Odell"
+      chefName: "Miles Odell",
+      food: "Nightly-changing kaiseki-inspired menu of cooked courses plus a nigiri progression. A recent menu included scallop in leche de tigre, black-truffle chawanmushi with Dungeness crab, sansho-peppercorn lamb, and an 11-piece nigiri set."
     },
     {
       name: "Alma Fonda Fina",
@@ -69,7 +73,8 @@ window.TRACKER = {
       notes: "28-seat dining room plus an 8-seat chef's counter.",
       url: "https://www.opentable.com/r/alma-fonda-fina-denver",
       chef: "chef-curiel",
-      chefName: "Johnny Curiel"
+      chefName: "Johnny Curiel",
+      food: "À la carte contemporary Mexican that changes often, with no desserts. Highlights include camote asado with salsa macha, Hokkaido scallops in tomato butter and serrano ponzu, hamachi with roasted pineapple, and lamb-shank birria."
     },
     {
       name: "Mezcaleria Alma",
@@ -81,7 +86,8 @@ window.TRACKER = {
       notes: "Big mezcal list; 10-seat chef's counter.",
       url: "https://www.opentable.com/r/mezcaleria-alma-denver",
       chef: "chef-curiel",
-      chefName: "Johnny Curiel"
+      chefName: "Johnny Curiel",
+      food: "Seafood-forward Mexico City small plates for sharing. Current plates include kanpachi ceviche, uni-and-scallop aguachile with mandarin, a dry-aged toro tostada, and pibil duck on a tlacoyo."
     },
     {
       name: "Tai Tai Japanese",
@@ -91,7 +97,9 @@ window.TRACKER = {
       format: "À la carte",
       price: "About $31 to $50 a head",
       notes: "Lively sushi bar and open kitchen, good for late-night bites.",
-      url: "https://www.opentable.com/r/tai-tai-japanese-denver"
+      url: "https://www.opentable.com/r/tai-tai-japanese-denver",
+      chefName: "Wayne Conwell",
+      food: "Casual sushi bar for nigiri, sashimi, specialty rolls, poke, and open-faced hand rolls, with fish broken down in-house. Signatures include toro, uni, snow crab with caviar, and the Diablo and Pink Lady rolls."
     },
     {
       name: "Hell or High Water Tiki",
@@ -101,7 +109,8 @@ window.TRACKER = {
       format: "Bar",
       price: "About $31 to $50 a head",
       notes: "From Nov 20, walk-in only after 8 PM on Fridays and Saturdays.",
-      url: "https://www.opentable.com/r/hell-or-high-water-tikidenver"
+      url: "https://www.opentable.com/r/hell-or-high-water-tikidenver",
+      food: "A tiki cocktail bar more than a kitchen, with inventive tropical drinks (including a flaming Jungle Bird) and only light snacks. Come for the drinks, not dinner."
     },
     {
       name: "Vin Rouge Wine Bar",
@@ -111,7 +120,8 @@ window.TRACKER = {
       format: "Bar",
       price: "Under $30 a head",
       notes: "Boutique organic wines, cheese and charcuterie.",
-      url: "https://www.opentable.com/r/vin-rouge-wine-bar-and-tasting-room-denver"
+      url: "https://www.opentable.com/r/vin-rouge-wine-bar-and-tasting-room-denver",
+      food: "Neighborhood wine bar with light fare: cheese boards (18-month Gouda, triple-cream brie), Il Porcellino salumi, olives, almonds, and chocolate bites."
     }
   ],
   chefs: [

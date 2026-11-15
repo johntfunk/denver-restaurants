@@ -302,7 +302,16 @@ a { color: var(--link); }
 
 .unguided { color: var(--faint); }
 
-.notes { line-height: 1.45; }
+.food {
+  display: block;
+  line-height: 1.45;
+}
+
+.notes {
+  line-height: 1.45;
+  margin-top: 0.35rem;
+  opacity: 0.75;
+}
 
 .chef-name { font-weight: 700; }
 

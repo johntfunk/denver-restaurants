@@ -18,8 +18,9 @@ Each restaurant:
 | `stars` | `1` draws a custom red star badge (`#C8102E`). `0` shows "Not in guide". This is not the Michelin logo. |
 | `format` | `Tasting menu`, `À la carte`, or `Bar`. The Tasting menus filter matches `Tasting menu`. |
 | `price` | Cost line. |
-| `notes` | Good-to-know text. |
-| `chefName` | Optional. Shown in bold at the start of Good to know as `Chef <Name>.` before the notes. |
+| `notes` | Good-to-know text. Shown under the food line at about 75% opacity. |
+| `food` | What they serve. Shown in Good to know after the chef name, before the notes. |
+| `chefName` | Optional. Shown in bold at the start of Good to know as `Chef <Name>.` |
 | `url` | Restaurant page. |
 | `chef` | Optional profile id: `chef-curiel`, `chef-kizaki`, or `chef-odell`. Rows with a matching chef link to that profile. A `chefName` does not require a `chef` id. |
 
