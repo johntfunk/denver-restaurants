@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denver Restaurant Tracker</title>
+  <meta name="description" content="John's shortlist of standout Denver restaurants, with Michelin status, what dinner really costs, and how to get a table. Status as of Nov 15, 2026.">
+  <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#12100e" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="wrap">
+    <header class="site-header">
+      <p class="eyebrow">John Funk</p>
+      <h1>Denver Restaurant Tracker</h1>
+      <p class="summary" id="summary">John's shortlist of standout Denver restaurants, with Michelin status, what dinner really costs, and how to get a table. Status as of Nov 15, 2026.</p>
+      <p class="updated">Last updated <time id="updated" datetime="2026-11-15">November 15, 2026</time></p>
+    </header>
+
+    <main id="main">
+      <section aria-label="At a glance">
+        <div id="metrics">
+          <div class="metrics">
+            <article class="metric">
+              <p class="metric-value">9</p>
+              <h3 class="metric-label">Restaurants tracked</h3>
+            </article>
+            <article class="metric">
+              <p class="metric-value">5</p>
+              <h3 class="metric-label">Michelin one-star</h3>
+              <p class="metric-detail">2026 guide</p>
+            </article>
+            <article class="metric">
+              <p class="metric-value">4</p>
+              <h3 class="metric-label">Fixed-price tasting menus</h3>
+              <p class="metric-detail">$175 to $250 per person</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="list-section" aria-labelledby="list-heading">
+        <h2 class="section-heading" id="list-heading">The list</h2>
+        <p class="caption">Prices are per person before drinks unless noted; pp means per person.</p>
+        <div id="filters" class="filters" role="group" aria-label="Filter restaurants"></div>
+        <p id="filter-status" class="sr-only" aria-live="polite"></p>
+        <div id="table-root"></div>
+        <noscript>
+          <p class="notice">Enable JavaScript to load the restaurant table, filters, and chef profiles from <a href="data/restaurants.js">data/restaurants.js</a>. As of November 15, 2026 the file tracks nine Denver restaurants: five Michelin one-star places, and four fixed-price tasting menus from $175 to $250 per person.</p>
+        </noscript>
+      </section>
+
+      <div id="chefs"></div>
+
+      <section class="reading-section" aria-labelledby="reading-heading">
+        <h2 id="reading-heading">Further reading</h2>
+        <div id="reading-cards"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <h2>Sources</h2>
+      <ul id="sources"></ul>
+    </footer>
+  </div>
+  <script src="data/restaurants.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
