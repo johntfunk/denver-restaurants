@@ -19,8 +19,9 @@ Each restaurant:
 | `format` | `Tasting menu`, `À la carte`, or `Bar`. The Tasting menus filter matches `Tasting menu`. |
 | `price` | Cost line. |
 | `notes` | Good-to-know text. |
+| `chefName` | Optional. Shown in bold at the start of Good to know as `Chef <Name>.` before the notes. |
 | `url` | Restaurant page. |
-| `chef` | Optional profile id: `chef-curiel`, `chef-kizaki`, or `chef-odell`. Rows with a matching chef link to that profile. |
+| `chef` | Optional profile id: `chef-curiel`, `chef-kizaki`, or `chef-odell`. Rows with a matching chef link to that profile. A `chefName` does not require a `chef` id. |
 
 The summary counts and the All / Michelin stars / Tasting menus filters are computed from `restaurants`. `metrics.tastingDetail` is the tasting-menu price range shown under the tasting-menu count. `metrics.starredDetail` is the line under the one-star count (currently `2026 guide`).
 

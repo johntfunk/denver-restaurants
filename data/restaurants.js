@@ -19,7 +19,8 @@ window.TRACKER = {
       format: "Tasting menu",
       price: "$215 pp, prepaid, plus service charge and tax",
       notes: "About 2.5 hours; chef's counter (1 to 4 guests) or dining room.",
-      url: "https://www.opentable.com/r/beckon-denver"
+      url: "https://www.opentable.com/r/beckon-denver",
+      chefName: "Duncan Holmes"
     },
     {
       name: "Milpero",
@@ -31,7 +32,8 @@ window.TRACKER = {
       notes:
         "18 courses, 8 guests per seating, 4 nights a week. Each month's tables open at 8 AM MT on the 1st of the month before.",
       url: "https://www.opentable.com/r/maize-denver",
-      chef: "chef-curiel"
+      chef: "chef-curiel",
+      chefName: "Johnny Curiel"
     },
     {
       name: "Kizaki",
@@ -42,7 +44,8 @@ window.TRACKER = {
       price: "$250 pp plus service fee and tax",
       notes: "About 20 courses; seatings at 5:00 and 8:00 PM, counter or table.",
       url: "https://www.opentable.com/r/kizaki-denver",
-      chef: "chef-kizaki"
+      chef: "chef-kizaki",
+      chefName: "Toshi Kizaki"
     },
     {
       name: "The Counter at Odell's",
@@ -53,7 +56,8 @@ window.TRACKER = {
       price: "$175 pp, optional $85 drink pairing",
       notes: "10-seat counter on weekends; menu changes nightly; no vegetarian or vegan.",
       url: "https://www.opentable.com/r/the-counter-at-odells-denver",
-      chef: "chef-odell"
+      chef: "chef-odell",
+      chefName: "Miles Odell"
     },
     {
       name: "Alma Fonda Fina",
@@ -64,7 +68,8 @@ window.TRACKER = {
       price: "Mains about $39 to $49",
       notes: "28-seat dining room plus an 8-seat chef's counter.",
       url: "https://www.opentable.com/r/alma-fonda-fina-denver",
-      chef: "chef-curiel"
+      chef: "chef-curiel",
+      chefName: "Johnny Curiel"
     },
     {
       name: "Mezcaleria Alma",
@@ -75,7 +80,8 @@ window.TRACKER = {
       price: "Small plates about $20 to $24",
       notes: "Big mezcal list; 10-seat chef's counter.",
       url: "https://www.opentable.com/r/mezcaleria-alma-denver",
-      chef: "chef-curiel"
+      chef: "chef-curiel",
+      chefName: "Johnny Curiel"
     },
     {
       name: "Tai Tai Japanese",

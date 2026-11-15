@@ -304,6 +304,8 @@ a { color: var(--link); }
 
 .notes { line-height: 1.45; }
 
+.chef-name { font-weight: 700; }
+
 .profile-link {
   margin-top: 0.4rem;
   font-weight: 650;

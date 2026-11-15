@@ -257,7 +257,15 @@
       notesCell.setAttribute("data-label", "Good to know");
       var notes = document.createElement("span");
       notes.className = "notes";
-      notes.textContent = place.notes;
+      if (place.chefName) {
+        var chefName = document.createElement("strong");
+        chefName.className = "chef-name";
+        chefName.textContent = "Chef " + place.chefName + ".";
+        notes.appendChild(chefName);
+        notes.appendChild(document.createTextNode(" " + place.notes));
+      } else {
+        notes.textContent = place.notes;
+      }
       notesCell.appendChild(notes);
       if (place.chef && knownChefs[place.chef]) {
         var chefLink = document.createElement("a");
