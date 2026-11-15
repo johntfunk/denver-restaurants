@@ -122,6 +122,84 @@ window.TRACKER = {
       notes: "Boutique organic wines, cheese and charcuterie.",
       url: "https://www.opentable.com/r/vin-rouge-wine-bar-and-tasting-room-denver",
       food: "Neighborhood wine bar with light fare: cheese boards (18-month Gouda, triple-cream brie), Il Porcellino salumi, olives, almonds, and chocolate bites."
+    },
+    {
+      name: "Heretík",
+      hood: "RiNo",
+      cuisine: "Basque and French",
+      stars: 0,
+      michelin: "Recommended",
+      format: "À la carte",
+      price: "Pintxos and plates about $8 to $32; half rotisserie chicken $36, whole $68; raw-bar plateau $155",
+      notes: "Reserve for the small dining room; bar, 10-seat counter and patio are walk-in. Closed Tuesday. On the NYT's 50 favorite US restaurants of 2026; Michelin Sommelier Award.",
+      food: "Basque- and French-inspired pintxos, seafood and rotisserie heritage chicken. Signatures include tuna-tartare deviled eggs, scallops à la plancha, a raw-bar plateau and Basque cheesecake.",
+      url: "https://www.opentable.com/r/heretik-denver",
+      chefName: "Theo Adley"
+    },
+    {
+      name: "Yuan Wonton",
+      hood: "North Park Hill",
+      cuisine: "Chinese dumplings",
+      stars: 0,
+      michelin: "Not in guide",
+      format: "À la carte",
+      price: "About $31 to $50 a head (OpenTable); dish prices not posted",
+      notes: "Lunch Tue to Fri 11 to 3; happy hour with dinner menu Thu and Fri 4 to 6; monthly Friday Canto dinners. Closed weekends. Chef won the 2026 James Beard Best Chef: Mountain.",
+      food: "Handmade wontons and dumplings with Chinese, Thai and Cantonese-American riffs plus a rotating daily board. Signatures include chili-oil wontons, Sichuan eggplant dumplings and Tom Kha wontons.",
+      url: "https://www.opentable.com/r/yuan-wonton-denver",
+      chefName: "Penelope Wong"
+    },
+    {
+      name: "MAKfam",
+      hood: "Baker",
+      cuisine: "Chinese",
+      stars: 0,
+      michelin: "Bib Gourmand",
+      format: "À la carte",
+      price: "Small bites $7.50 to $15; noodle and rice plates $18.50; pork belly ssäm for two $38",
+      notes: "Walk-in only, no reservations; dinner often has a text waitlist. Closed Tuesday.",
+      food: "Tradition-inspired Chinese cooking from two restaurant-family kids: XO wonton soup, steak-and-egg jian bing, chili-oil and mala noodles, bao and pork belly ssäm.",
+      url: "https://www.makfam.com/",
+      chefName: "Kenneth Wan and Doris Yuen"
+    },
+    {
+      name: "Restaurant Olivia",
+      hood: "Washington Park",
+      cuisine: "Italian, handmade pasta",
+      stars: 0,
+      michelin: "Recommended",
+      format: "À la carte",
+      price: "Pastas $36 to $38, large plates $34 to $43; pasta tasting $85 pp plus optional $60 wine pairing; 20% service charge",
+      notes: "Book on Tock (refundable deposit). Tue to Sat 5 to 9. Tasting menu must be ordered by the whole table.",
+      food: "Handmade pasta is the focus, from culurgiones with buffalo ricotta to tagliatelle Bolognese and truffle gemelli, plus Frontier Ranch trout spiedini and venison striploin.",
+      url: "https://www.exploretock.com/restaurantolivia/",
+      chefName: "Ty Leon"
+    },
+    {
+      name: "Xiquita",
+      hood: "Uptown",
+      cuisine: "Regional Mexican",
+      stars: 0,
+      michelin: "Not in guide",
+      format: "À la carte",
+      price: "Small plates $17 to $26; cochinita pibil or grilled chicken $49",
+      notes: "Mon to Sat 4 to 10, closed Sunday. Happy hour Tue to Fri 4 to 6.",
+      food: "Nixtamal masa cooking with regional salsas and fillings: duck confit taco with house mole, chorizo-and-potato huarache, banana-leaf cochinita pibil and hamachi crudo.",
+      url: "https://www.opentable.com/r/xiquita-denver",
+      chefName: "Erasmo Casiano and Rene Gonzalez Mendez"
+    },
+    {
+      name: "Annette",
+      hood: "Aurora (Stanley Marketplace)",
+      cuisine: "Wood-fired American",
+      stars: 0,
+      michelin: "Bib Gourmand",
+      format: "À la carte",
+      price: "Snacks $6 to $12.50; shared plates $17 to $31; pork tenderloin $39, half chicken $41",
+      notes: "In Aurora, just outside Denver. Tue to Sun 4:30 to 9, closed Monday. Chef won the 2022 James Beard Best Chef: Mountain.",
+      food: "Wood-fired seasonal American from an open kitchen: roast chicken, steak frites, pork tenderloin, chicken liver pâté and ricotta cavatelli, with a strong cocktail list.",
+      url: "https://www.opentable.com/r/annette-aurora",
+      chefName: "Caroline Glover"
     }
   ],
   chefs: [
@@ -198,6 +276,9 @@ window.TRACKER = {
     "Denver Westword",
     "New Denizen",
     "The Denver Post",
-    "Nation's Restaurant News"
+    "Nation's Restaurant News",
+    "5280 25 Best Restaurants 2026",
+    "James Beard Foundation",
+    "Eater Denver"
   ]
 };

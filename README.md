@@ -15,7 +15,8 @@ Each restaurant:
 | `name` | Display name. Linked to `url`. |
 | `hood` | Neighborhood, shown under the name. |
 | `cuisine` | Shown under the name. |
-| `stars` | `1` draws a custom red star badge (`#C8102E`). `0` shows "Not in guide". This is not the Michelin logo. |
+| `stars` | `1` draws a custom red star badge (`#C8102E`). This is not the Michelin logo. | 
+| `michelin` | Optional guide label when `stars` is `0`. `Bib Gourmand` is shown in `#C8102E`, `Recommended` in the normal text color. Anything else, including `Not in guide` or a missing value, shows "Not in guide". |
 | `format` | `Tasting menu`, `À la carte`, or `Bar`. The Tasting menus filter matches `Tasting menu`. |
 | `price` | Cost line. |
 | `notes` | Good-to-know text. Shown under the food line at about 75% opacity. |
@@ -24,7 +25,7 @@ Each restaurant:
 | `url` | Restaurant page. |
 | `chef` | Optional profile id: `chef-curiel`, `chef-kizaki`, or `chef-odell`. Rows with a matching chef link to that profile. A `chefName` does not require a `chef` id. |
 
-The summary counts and the All / Michelin stars / Tasting menus filters are computed from `restaurants`. `metrics.tastingDetail` is the tasting-menu price range shown under the tasting-menu count. `metrics.starredDetail` is the line under the one-star count (currently `2026 guide`).
+The summary counts and the All / Michelin stars / Bib & Recommended / Tasting menus filters are computed from `restaurants`. Bib & Recommended matches places with no star whose `michelin` is `Bib Gourmand` or `Recommended`. `metrics.tastingDetail` is the tasting-menu price range shown under the tasting-menu count. `metrics.starredDetail` is the line under the one-star count (currently `2026 guide`).
 
 Chef profiles live in `chefs`. The `id` must match a restaurant's `chef` value so the "See chef profile below" link lands on that section. `reading` is the further-reading cards. `sources` is the footer list.
 

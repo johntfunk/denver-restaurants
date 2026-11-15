@@ -40,9 +40,14 @@
     return count;
   }
 
+  function isBibOrRecommended(place) {
+    return !place.stars && (place.michelin === "Bib Gourmand" || place.michelin === "Recommended");
+  }
+
   function isVisible(place) {
     if (filter === "stars") return isStarred(place);
     if (filter === "tasting") return isTasting(place);
+    if (filter === "listed") return isBibOrRecommended(place);
     return true;
   }
 
@@ -126,6 +131,7 @@
     var options = [
       { id: "all", label: "All", count: data.restaurants.length },
       { id: "stars", label: "Michelin stars", count: countWhere(isStarred) },
+      { id: "listed", label: "Bib & Recommended", count: countWhere(isBibOrRecommended) },
       { id: "tasting", label: "Tasting menus", count: countWhere(isTasting) }
     ];
 
@@ -153,7 +159,13 @@
     });
   }
 
-  function starBadge(count) {
+  function starBadge(count, michelin) {
+    if (!count && michelin && michelin !== "Not in guide") {
+      var listed = document.createElement("span");
+      listed.className = michelin === "Bib Gourmand" ? "michelin-bib" : "michelin-listed";
+      listed.textContent = michelin;
+      return listed;
+    }
     if (!count) {
       var none = document.createElement("span");
       none.className = "unguided";
@@ -243,7 +255,7 @@
 
       var starCell = document.createElement("td");
       starCell.setAttribute("data-label", "Michelin");
-      starCell.appendChild(starBadge(place.stars));
+      starCell.appendChild(starBadge(place.stars, place.michelin));
 
       var formatCell = document.createElement("td");
       formatCell.setAttribute("data-label", "Format");

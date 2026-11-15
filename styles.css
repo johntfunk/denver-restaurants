@@ -302,6 +302,11 @@ a { color: var(--link); }
 
 .unguided { color: var(--faint); }
 
+.michelin-bib,
+.michelin-listed { white-space: nowrap; }
+
+.michelin-bib { color: #C8102E; }
+
 .food {
   display: block;
   line-height: 1.45;
